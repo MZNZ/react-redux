@@ -1,0 +1,32 @@
+@import './Common.less';
+
+#posts-page {
+  a {
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .small-grey {
+    font-size: small;
+    color: @post-dark-grey;
+  }
+
+  .title-domain-inline {
+    display: inline;
+  }
+
+  .posts {
+    margin: 10px 5px 10px 5px;
+    .padding-bgcolor-mixin;
+  }
+
+  .md p a, .md ul li a {
+    font-size: 17px;
+  }
+
+  .post-summary {
+    margin: 5px 5px 5px 5px;
+    border-radius: 2px;
+    .padding-bgcolor-mixin;
+  }
+}
